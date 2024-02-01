@@ -1,7 +1,5 @@
-## This is an example bolt configuration file.
-## Docs Reference: https://puppet.com/docs/bolt/latest/bolt_configuration_options.html
-name: myproject
+---
+name: multi_cloud_appstack
 modules:
-  - name: puppetlabs/facts
-  - git: https://github.com/puppetlabs/puppetlabs-service
+  - git: https://github.com/puppetlabs/puppetlabs-pecdm
     ref: main
